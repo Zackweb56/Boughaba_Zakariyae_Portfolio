@@ -75,6 +75,7 @@
 @media (max-width:768px) {
     .additional_box{
         max-width: 88%;
+        /* margin-left: 4%; */
     }
     .qr_code_certife img{
         width: 40%;

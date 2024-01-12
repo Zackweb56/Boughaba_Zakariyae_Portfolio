@@ -8,7 +8,8 @@
 
 @media (max-width:768px) {
     .education .box-container .box{
-        max-width: 100%; 
+        max-width: 105%; 
+        margin-left: 2.5%; 
     }
     .education .box-container .box .content p{
         width: 100%;
@@ -17,6 +18,6 @@
 
 @media (max-width:480px) {
     .education .box-container{
-        width: 107%; 
+        width: 105%; 
     }
 }

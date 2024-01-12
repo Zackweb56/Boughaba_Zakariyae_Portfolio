@@ -38,10 +38,11 @@
         width: 78%;
     }
     .move_heading{
-        font-size: 28px;
+        margin-left: 25px;
+        font-size: 25px;
     }
     .arrow_icon{
-        margin-left: 180%;
+        margin-left: 100%;
         width: 100%;
     }
 }

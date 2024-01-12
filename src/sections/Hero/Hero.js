@@ -23,11 +23,11 @@ function Hero() {
                 <span></span>
                 <span></span>
                 <span></span>
+                {/* <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
-                <span></span>
+                <span></span> */}
             </ul>
         </div>
         <div className='container-md'>

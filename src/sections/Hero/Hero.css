@@ -53,15 +53,19 @@
         width: 125%;
     }
     .Hero_image img{
-        /* margin-left: -5%; */
+        margin-left: 3%;
         width: 100%;
     }
 }
 
 @media (max-width:768px) {
-    #Hero{
-        left: 2%;
+    .circles span{
+        width: 10px;
+        height: 10px;
     }
+    /* #Hero{
+        background-color: #fff;
+    } */
     .bubbles_container{
         width: 100%;
         height: 280vh;
@@ -102,8 +106,8 @@
 
 .circles span{
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     background: #ffffff56;
     border-radius: 50%;
     box-shadow: 0 0 0 10px #ffffff46,
@@ -162,7 +166,7 @@
     animation-duration: 5s;
 }
 
-.circles span:nth-child(12) {
+/* .circles span:nth-child(12) {
     animation-duration: 52s;
 }
 
@@ -180,7 +184,7 @@
 
 .circles span:nth-child(16) {
     animation-duration: 14s;
-}
+} */
 
 @keyframes animate{
     0%{

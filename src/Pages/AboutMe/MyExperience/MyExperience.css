@@ -10,3 +10,9 @@
         width: 100%;
     }
 }
+
+@media (max-width:480px) {
+    .experience .box-container .box{
+        min-width: 90%; 
+    }
+}

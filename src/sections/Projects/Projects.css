@@ -97,7 +97,7 @@
     }
     .projects_card{
         width: 85%;
-        margin: 0 auto;
+        margin: 15px auto;
     }
     .projects_card .project_title{
         font-size: 15px;
