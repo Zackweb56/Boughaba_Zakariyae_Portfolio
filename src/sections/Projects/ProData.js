@@ -5,6 +5,7 @@ import img05 from '../../assets/fast_food.png';
 import img06 from '../../assets/qcm_test.png';
 import img07 from '../../assets/world_map.png';
 import img08 from '../../assets/find_words_game.png';
+import img09 from '../../assets/img_bg_p8.png';
 
 import structure_02 from '../../assets/file_structure/file_structure_travel.png';
 import structure_03 from '../../assets/file_structure/file_structure_worldmap.png';
@@ -81,8 +82,21 @@ import p7img4 from '../../assets/project7/p7img4.png';
 import p7img5 from '../../assets/project7/p7img5.png';
 import p7img6 from '../../assets/project7/p7img6.png';
 
+// PROJECT 8
+import p8img1 from '../../assets/project8/p8img1.png';
+import p8img2 from '../../assets/project8/p8img2.png';
+import p8img3 from '../../assets/project8/p8img3.png';
+import p8img4 from '../../assets/project8/p8img4.png';
+import p8img5 from '../../assets/project8/p8img5.png';
+import p8img6 from '../../assets/project8/p8img6.png';
+import p8img7 from '../../assets/project8/p8img7.png';
+import p8img8 from '../../assets/project8/p8img8.png';
+import p8img9 from '../../assets/project8/p8img9.png';
+import p8img10 from '../../assets/project8/p8img10.png';
+import p8img11 from '../../assets/project8/p8img11.png';
+
 // icons
-import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaBootstrap,FaFigma, FaGear } from "react-icons/fa6";
+import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaBootstrap,FaFigma,FaGear,FaWordpress } from "react-icons/fa6";
 import { BiLogoJquery } from "react-icons/bi";
 import { SiMysql} from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -440,5 +454,49 @@ export const ProData = [
         ],
         project_structure_img: "-",
         project_link_preview: 'https://zackweb56.github.io/Guess_Words_Game/',
+    },
+    {
+        id: 8,
+        project_image: img09,
+        image_gallery:[
+            {p6img:p8img1},
+            {p6img:p8img2},
+            {p6img:p8img3},
+            {p6img:p8img4},
+            {p6img:p8img5},
+            {p6img:p8img6},
+            {p6img:p8img7},
+            {p6img:p8img8},
+            {p6img:p8img9},
+            {p6img:p8img10},
+            {p6img:p8img11},
+        ],
+        project_title: 'Landing Page Website.',
+        project_date: "12/08/2023",
+        project_desc: [<FaWordpress />],
+        project_details: '"this web application is a responsive MCQ tests, meticulously created using Laravel, CSS, Bootstrap, and jQuery. Backed by the strength of Laravel and MySQl."',
+        project_features: [
+            {
+                id:1,
+                feature: "template design",
+            },
+            {
+                id:2,
+                feature: "include animations",
+            },
+        ],
+        project_categories:[
+            {categorie: "website template"},
+            {categorie: "front end"},
+            {categorie: "Landing Page"},
+        ],
+        project_tags:[
+            {tag: "#wordpress"},
+            {tag: "#elementor"},
+            {tag: "#website_template"},
+            {tag: "#Landing_Page"},
+        ],
+        project_structure_img: "-",
+        project_link_preview: 'https://github.com/Zackweb56/',
     },
 ]
