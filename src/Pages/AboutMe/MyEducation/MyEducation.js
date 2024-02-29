@@ -1,10 +1,11 @@
 import React from 'react'
 import { FaCalendar } from 'react-icons/fa6'
 import './MyEducation.css'
+import AnimationSections from "../../../AnimationSections/AnimationSections";
 
 const MyEducation = () => {
   return (
-      <>
+      <AnimationSections>
         <section className="container-md education" id="education">
           <h1 className="heading"> <span> my </span> education : </h1>
           <div className="box-container">
@@ -25,7 +26,7 @@ const MyEducation = () => {
 
           </div>
         </section>
-      </>
+      </AnimationSections>
   )
 }
 

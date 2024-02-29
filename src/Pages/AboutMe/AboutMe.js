@@ -6,10 +6,11 @@ import MyExperience from './MyExperience/MyExperience'
 import AboutMe_img from '../../assets/about_img.jpg'
 import FirstSectionOfPages from '../../components/FirstSectionOfPages/FirstSectionOfPages'
 import MoveToNextPage from '../../sections/MoveToNextPage/MoveToNextPage'
+import AnimationSections from '../../AnimationSections/AnimationSections'; 
 
 export default function AboutMe() {
   return (
-    <>
+    <AnimationSections>
       <FirstSectionOfPages title="More Information" logo={AboutMe_img} />
       <div className="container">
         <MyEducation />
@@ -18,6 +19,6 @@ export default function AboutMe() {
         </div>
       </div>
       <MoveToNextPage move_title="Services" move_link="/Services" />
-    </>
+    </AnimationSections>
   );
 }

@@ -2,10 +2,12 @@ import React from 'react'
 import './HireMe.css'
 import Titles from '../../components/Titles/Titles'
 import { DataMe } from './DataMe'
+import AnimationSections from '../../AnimationSections/AnimationSections'
 
 const HireMe = () => {
   return (
-    <div className='morespace'>
+    <AnimationSections>
+        <div className='morespace'>
         <Titles title='Why Hire Me ?' />
         <div id="hire" className='container-md mt-5 d-flex justify-content-center align-items-center'>
             {DataMe.map((item)=>{
@@ -25,6 +27,7 @@ const HireMe = () => {
             })}
         </div>
     </div>
+    </AnimationSections>
   )
 }
 

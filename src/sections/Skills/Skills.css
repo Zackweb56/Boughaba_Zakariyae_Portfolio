@@ -6,6 +6,10 @@
     margin-right: 5px;
 }
 
+.slick-dots li button::before {
+    color: #fff;
+}
+
 .skill_card{
     position: relative;
     font-size: 80px;

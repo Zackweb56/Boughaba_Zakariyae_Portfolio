@@ -2,7 +2,7 @@
 
 .move_to_next_page{
     padding: 25px 0;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #ff8a00, #e52e71);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
