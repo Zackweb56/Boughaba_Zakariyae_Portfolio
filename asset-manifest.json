@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Boughaba_Zakariyae_Portfolio/static/css/main.b7f65d2e.css",
-    "main.js": "/Boughaba_Zakariyae_Portfolio/static/js/main.7d0d6730.js",
+    "main.css": "/Boughaba_Zakariyae_Portfolio/static/css/main.e165d0ab.css",
+    "main.js": "/Boughaba_Zakariyae_Portfolio/static/js/main.5a2ab322.js",
     "static/media/travel01.png": "/Boughaba_Zakariyae_Portfolio/static/media/travel01.dae820d9b92f6715160e.png",
     "static/media/p5img4.png": "/Boughaba_Zakariyae_Portfolio/static/media/p5img4.93078be42a54586417b3.png",
     "static/media/p5img9.png": "/Boughaba_Zakariyae_Portfolio/static/media/p5img9.f09803bf83d4d6ad2345.png",
@@ -30,9 +30,7 @@
     "static/media/p1img3.png": "/Boughaba_Zakariyae_Portfolio/static/media/p1img3.577a10a1ecad8cc9a4fe.png",
     "static/media/my_cv_english.pdf": "/Boughaba_Zakariyae_Portfolio/static/media/my_cv_english.694aee516c88e732c35f.pdf",
     "static/media/p1img1.png": "/Boughaba_Zakariyae_Portfolio/static/media/p1img1.c537a3082fa577ea4809.png",
-    "static/media/Programmer.png": "/Boughaba_Zakariyae_Portfolio/static/media/Programmer.6e4018abc9146a6b39f1.png",
     "static/media/p1img9.png": "/Boughaba_Zakariyae_Portfolio/static/media/p1img9.fd0e6516e72c2c33884d.png",
-    "static/media/contact_img.png": "/Boughaba_Zakariyae_Portfolio/static/media/contact_img.46a34d6755de1c345b75.png",
     "static/media/p3img1.png": "/Boughaba_Zakariyae_Portfolio/static/media/p3img1.97a6a8ca5acab625ffde.png",
     "static/media/p1img4.png": "/Boughaba_Zakariyae_Portfolio/static/media/p1img4.6837a750f3e8b9fab3d5.png",
     "static/media/p8img4.png": "/Boughaba_Zakariyae_Portfolio/static/media/p8img4.e61fad17a16b88e15bf5.png",
@@ -55,7 +53,6 @@
     "static/media/p1img6.png": "/Boughaba_Zakariyae_Portfolio/static/media/p1img6.24492387e209b287cf19.png",
     "static/media/p8img6.png": "/Boughaba_Zakariyae_Portfolio/static/media/p8img6.d1e2ebea3b4311229ef9.png",
     "static/media/p2img1.png": "/Boughaba_Zakariyae_Portfolio/static/media/p2img1.d9de55e494d0fc4c26a5.png",
-    "static/media/bg_for_every_page.png": "/Boughaba_Zakariyae_Portfolio/static/media/bg_for_every_page.d8eeaa4f43046594f0d2.png",
     "static/media/p2img3.png": "/Boughaba_Zakariyae_Portfolio/static/media/p2img3.00f85494fd429d36c499.png",
     "static/media/p2img8.png": "/Boughaba_Zakariyae_Portfolio/static/media/p2img8.45bbecd8436ef40706be.png",
     "static/media/skills_img.jpg": "/Boughaba_Zakariyae_Portfolio/static/media/skills_img.061a9c17ce98e145f346.jpg",
@@ -91,6 +88,8 @@
     "static/media/p6img7.png": "/Boughaba_Zakariyae_Portfolio/static/media/p6img7.356b7a141aa7beacc674.png",
     "static/media/p6img2.png": "/Boughaba_Zakariyae_Portfolio/static/media/p6img2.0ae06a935db8b406c549.png",
     "static/media/p6img8.png": "/Boughaba_Zakariyae_Portfolio/static/media/p6img8.9085b3e99073b12f747e.png",
+    "static/media/herop1.svg": "/Boughaba_Zakariyae_Portfolio/static/media/herop1.122ff48bb8190d13f7b17a65e582d492.svg",
+    "static/media/contactme.svg": "/Boughaba_Zakariyae_Portfolio/static/media/contactme.1c9f39c701f586dadb4585a4daf6c3dc.svg",
     "static/media/Logo01.png": "/Boughaba_Zakariyae_Portfolio/static/media/Logo01.86db88ea68aa64827712.png",
     "static/media/file_structure_worldmap.png": "/Boughaba_Zakariyae_Portfolio/static/media/file_structure_worldmap.50db75b4fc61bb300228.png",
     "static/media/slick.svg": "/Boughaba_Zakariyae_Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -98,11 +97,11 @@
     "static/media/slick.ttf": "/Boughaba_Zakariyae_Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Boughaba_Zakariyae_Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Boughaba_Zakariyae_Portfolio/index.html",
-    "main.b7f65d2e.css.map": "/Boughaba_Zakariyae_Portfolio/static/css/main.b7f65d2e.css.map",
-    "main.7d0d6730.js.map": "/Boughaba_Zakariyae_Portfolio/static/js/main.7d0d6730.js.map"
+    "main.e165d0ab.css.map": "/Boughaba_Zakariyae_Portfolio/static/css/main.e165d0ab.css.map",
+    "main.5a2ab322.js.map": "/Boughaba_Zakariyae_Portfolio/static/js/main.5a2ab322.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7f65d2e.css",
-    "static/js/main.7d0d6730.js"
+    "static/css/main.e165d0ab.css",
+    "static/js/main.5a2ab322.js"
   ]
 }
