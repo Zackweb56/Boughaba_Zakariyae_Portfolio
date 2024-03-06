@@ -57,7 +57,7 @@
 @media (max-width:768px) {
     #skills{
         max-width: 95%;
-        margin-top: 10%;
+        margin-top: -40%;
     }
     .skill_card{
         margin-left: -2%;  
@@ -72,9 +72,9 @@
 }
 
 @media (max-width: 510px) {
-    #skills{
+    /* #skills{
         margin-top: 15%;
-    }
+    } */
     .skill_card{
         margin-left: -5%;  
     }

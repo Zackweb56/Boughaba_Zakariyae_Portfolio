@@ -7,12 +7,14 @@ import AboutMe_img from '../../assets/about_img.jpg'
 import FirstSectionOfPages from '../../components/FirstSectionOfPages/FirstSectionOfPages'
 import MoveToNextPage from '../../sections/MoveToNextPage/MoveToNextPage'
 import AnimationSections from '../../AnimationSections/AnimationSections'; 
+import Profile from './Profile/Profile'
 
 export default function AboutMe() {
   return (
     <AnimationSections>
       <FirstSectionOfPages title="More Information" logo={AboutMe_img} />
       <div className="container">
+        <Profile />
         <MyEducation />
         <div className="my-5">
           <MyExperience />

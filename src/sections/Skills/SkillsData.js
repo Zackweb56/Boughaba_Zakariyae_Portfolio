@@ -3,6 +3,7 @@ import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaPython,FaBootstrap,FaFigma, FaWor
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoJquery } from "react-icons/bi";
 import { SiMysql,SiMongodb,SiPhp } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const SkillsData = [
     {
@@ -102,11 +103,19 @@ export const SkillsData = [
         skill_desc: 'Python is a versatile and powerful high-level programming language known for its simplicity and readability.',
     },
     {
+        skill_icon: <TbBrandNextjs />,
+        skill_icon_color: '#00000085',
+        skill_icon_border: '#000000',
+        skill_name: 'NextJS',
+        skill_percentage: '20%',
+        skill_desc: 'Next.js is a React-based open-source web framework that is designed to make it easier to build React applications with server-side rendering (SSR) and other advanced features.',
+    },
+    {
         skill_icon: <FaWordpress />,
         skill_icon_color: '#00749c85',
         skill_icon_border: '#00749c',
         skill_name: 'WordPress',
-        skill_percentage: '15%',
-        skill_desc: 'Python is a versatile and powerful high-level programming language known for its simplicity and readability.',
+        skill_percentage: '35%',
+        skill_desc: 'WordPress is a popular and widely used open-source content management system (CMS) that allows users to create and manage websites easily.',
     }
 ]

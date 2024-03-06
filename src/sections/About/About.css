@@ -17,7 +17,7 @@
     width: 100%;
 }
 .about_me h1{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     color: #fff;
 }
@@ -29,23 +29,6 @@
 }
 .about_me p{
     font-size: 13px;
-}
-.about_information{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* width: 100%; */
-    line-height: 10px;
-    margin: -10px 0 15px 0;
-    font-size: 15px;
-}
-
-.infos_01{
-    margin-right: 0 20px;
-}
-
-.infos_02{
-    margin-left: 0 20px;
 }
 
 .about_information p{
@@ -78,13 +61,6 @@
         width: 180%;
         margin-left: -12px;
     }
-    .about_information p{
-        max-width: 100%;
-    }
-    .about_information{
-        margin-top: 10px;
-        display: flex;
-    }
     .about_me .btn{
         width: 53%;
     }
@@ -94,8 +70,8 @@
     #about{
         margin-bottom: 150%;
     }
-    .about_information{
-        display: block;
+    .about_me h1{
+        line-height: 38px;
     }
     .about_text_desc{
         text-align: justify;

@@ -4,7 +4,7 @@
   top: 0; 
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 10;
 }
 
 .progress-bar {
@@ -13,8 +13,8 @@
   transition: width 0.3s ease-in-out;
 }
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
   .progress-bar {
     height: 8px;
   }
-}
+} */

@@ -79,7 +79,6 @@ export default function ContactPage() {
               </div>
               <div>
                 <div className="text">
-                  {/* <h1>Send me a message</h1> */}
                   <p className="text_desc">
                     Whether you wish to discuss new ideas or have a project for
                     me, simply fill this form and I’ll get back to you soon.
@@ -112,13 +111,14 @@ export default function ContactPage() {
                   <textarea
                     name="message"
                     placeholder="Your Message"
-                    cols="30"
-                    rows="8"
                   ></textarea>
 
-                  {/* <button type="submit" className='s_btn'>
-                                            <Button title="send message" icon={<BsFillSendCheckFill />} />
-                                        </button> */}
+                  {/* <button type="submit" className="s_btn">
+                    <Button
+                      title="send message"
+                      icon={<BsFillSendCheckFill />}
+                    />
+                  </button> */}
 
                   <input
                     type="submit"

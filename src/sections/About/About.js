@@ -27,8 +27,7 @@ function About() {
           </div>
           <div className="about_me">
             <h1>
-              Hello, <span style={{ color: "var(--main-color)" }}>I'm</span> A
-              Full stack web developer
+            I'm A <span style={{ color: "var(--main-color)" }}>Full stack</span> web developer
             </h1>
             <p className="about_text_desc">
               My name is BOUGHABA ZAKARIYAE, and I am a highly skilled
@@ -41,7 +40,7 @@ function About() {
               staying updated on the latest technologies and industry best
               practices.
             </p>
-            <div className="about_information" width="100%">
+            {/* <div className="about_information" width="100%">
               <div className="infos_01">
                 <p>
                   <span>age : </span> 20
@@ -70,7 +69,7 @@ function About() {
                   <span>freelance : </span> available
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="btn">
               <Button
                 title="More Info"

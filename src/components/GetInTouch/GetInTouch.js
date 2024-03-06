@@ -18,7 +18,7 @@ export default function GetInTouch() {
                     <h3 className="heading_getintouch01">Based In Morocco 🇲🇦</h3>
                     <h1 className="heading_getintouch02">Get In Touch</h1>
                     <div className="hire_me">
-                    <Button title="Hire Me" link="/Contact" icon={<FaArrowRightLong />} />
+                        <Button title="Hire Me" link="/Contact" icon={<FaArrowRightLong />} />
                     </div>
                 </div>
                 <div className="all_links d-flex">

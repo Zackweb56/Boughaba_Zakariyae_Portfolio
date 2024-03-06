@@ -19,37 +19,31 @@ import AnimationSections from "../../AnimationSections/AnimationSections";
 function Hero() {
   return (
     <AnimationSections>
-      <div className="bubbles_container">
-        <ul className="circles">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          {/* <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span> */}
-        </ul>
-      </div>
-      <div className="container-md">
+      <div className="container-md hero_01">
+        <div className="bubbles_container">
+          <ul className="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </ul>
+        </div>
         <div id="Hero">
           <div className="hero_container">
             <div className="information">
               <h1>
-                Hello, <span style={{ color: "var(--main-color)" }}>I'm</span>{" "}
-                <br /> BOUGHABA ZAKARIA <br />{" "}
+                Hello, <span style={{ color: "var(--main-color)" }}>I'm</span>
+                <br /> BOUGHABA ZAKARIA <br />
                 <span className="gradient_text">A Full stack developer</span>
               </h1>
               <p>
-                {" "}
                 I am a highly skilled full-stack developer proficient in both
                 front-end and back-end development. I have the ability to create
                 dynamic and user-friendly web applications with exceptional
