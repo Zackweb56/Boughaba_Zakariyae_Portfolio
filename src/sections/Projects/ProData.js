@@ -7,6 +7,7 @@ import img07 from '../../assets/world_map.png';
 import img08 from '../../assets/find_words_game.png';
 import img09 from '../../assets/img_bg_p8.png';
 
+import structure_01 from '../../assets/file_structure/file_structure_findwords.png';
 import structure_02 from '../../assets/file_structure/file_structure_travel.png';
 import structure_03 from '../../assets/file_structure/file_structure_worldmap.png';
 import structure_04 from '../../assets/file_structure/file_structure_xo_game.png';
@@ -452,7 +453,7 @@ export const ProData = [
             {tag: "#javascript"},
             {tag: "#frontend"},
         ],
-        project_structure_img: "-",
+        project_structure_img: structure_01,
         project_link_preview: 'https://zackweb56.github.io/Guess_Words_Game/',
     },
     {
