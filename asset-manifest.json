@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Boughaba_Zakariyae_Portfolio/static/css/main.03738cee.css",
-    "main.js": "/Boughaba_Zakariyae_Portfolio/static/js/main.927019f9.js",
+    "main.js": "/Boughaba_Zakariyae_Portfolio/static/js/main.ceaa44c1.js",
     "static/media/travel01.png": "/Boughaba_Zakariyae_Portfolio/static/media/travel01.dae820d9b92f6715160e.png",
     "static/media/p5img4.png": "/Boughaba_Zakariyae_Portfolio/static/media/p5img4.93078be42a54586417b3.png",
     "static/media/p5img9.png": "/Boughaba_Zakariyae_Portfolio/static/media/p5img9.f09803bf83d4d6ad2345.png",
@@ -81,6 +81,7 @@
     "static/media/p6img11.png": "/Boughaba_Zakariyae_Portfolio/static/media/p6img11.cf950cc2b6a45dd48172.png",
     "static/media/p7img2.png": "/Boughaba_Zakariyae_Portfolio/static/media/p7img2.c6fec4d43a843e13d42d.png",
     "static/media/p7img1.png": "/Boughaba_Zakariyae_Portfolio/static/media/p7img1.505dfa4b033e0f39adf1.png",
+    "static/media/file_structure_worldmap.png": "/Boughaba_Zakariyae_Portfolio/static/media/file_structure_worldmap.549a8e63ef394fab21a3.png",
     "static/media/contact_img.jpg": "/Boughaba_Zakariyae_Portfolio/static/media/contact_img.4dcc83a1a96f5a7b35f3.jpg",
     "static/media/p6img9.png": "/Boughaba_Zakariyae_Portfolio/static/media/p6img9.9978ab6fea918940bb9a.png",
     "static/media/p3img2.png": "/Boughaba_Zakariyae_Portfolio/static/media/p3img2.ec7abe360f10c4c3f345.png",
@@ -90,19 +91,22 @@
     "static/media/p6img2.png": "/Boughaba_Zakariyae_Portfolio/static/media/p6img2.0ae06a935db8b406c549.png",
     "static/media/p6img8.png": "/Boughaba_Zakariyae_Portfolio/static/media/p6img8.9085b3e99073b12f747e.png",
     "static/media/herop1.svg": "/Boughaba_Zakariyae_Portfolio/static/media/herop1.122ff48bb8190d13f7b17a65e582d492.svg",
+    "static/media/file_structure_fastfood.png": "/Boughaba_Zakariyae_Portfolio/static/media/file_structure_fastfood.20689997d354f44c521b.png",
+    "static/media/file_structure_travel.png": "/Boughaba_Zakariyae_Portfolio/static/media/file_structure_travel.7fdc8778e32693766c3f.png",
     "static/media/contactme.svg": "/Boughaba_Zakariyae_Portfolio/static/media/contactme.1c9f39c701f586dadb4585a4daf6c3dc.svg",
     "static/media/Logo01.png": "/Boughaba_Zakariyae_Portfolio/static/media/Logo01.86db88ea68aa64827712.png",
-    "static/media/file_structure_worldmap.png": "/Boughaba_Zakariyae_Portfolio/static/media/file_structure_worldmap.50db75b4fc61bb300228.png",
+    "static/media/file_structure_xo_game.png": "/Boughaba_Zakariyae_Portfolio/static/media/file_structure_xo_game.128d3ccf236545a9287d.png",
+    "static/media/file_structure_findwords.png": "/Boughaba_Zakariyae_Portfolio/static/media/file_structure_findwords.ac72a49a94b6a39ccddc.png",
     "static/media/slick.svg": "/Boughaba_Zakariyae_Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Boughaba_Zakariyae_Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Boughaba_Zakariyae_Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Boughaba_Zakariyae_Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Boughaba_Zakariyae_Portfolio/index.html",
     "main.03738cee.css.map": "/Boughaba_Zakariyae_Portfolio/static/css/main.03738cee.css.map",
-    "main.927019f9.js.map": "/Boughaba_Zakariyae_Portfolio/static/js/main.927019f9.js.map"
+    "main.ceaa44c1.js.map": "/Boughaba_Zakariyae_Portfolio/static/js/main.ceaa44c1.js.map"
   },
   "entrypoints": [
     "static/css/main.03738cee.css",
-    "static/js/main.927019f9.js"
+    "static/js/main.ceaa44c1.js"
   ]
 }
