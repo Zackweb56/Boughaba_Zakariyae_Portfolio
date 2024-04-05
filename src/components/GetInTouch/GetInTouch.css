@@ -4,9 +4,8 @@
 }
 
 .heading_getintouch02{
-    margin-top: -35px;
-    margin-left: 25px;
-    font-size: 55px;
+    margin: -35px 0 45px 25px;
+    font-size: 48px;
     text-transform: capitalize;
     text-decoration: underline;
     color: #fff;
@@ -62,9 +61,13 @@
 }
 
 .hire_me{
-    width: 50%;
+    width: 40%;
     margin-left: 5%;
     margin-top: -8%;
+}
+
+.get img{
+    margin-left: -10%;
 }
 
 .social li a, .Soft_skills li, .web_links li #link{
@@ -125,6 +128,7 @@
         width: 42%;
     }
     .get img{
-        margin-left: 8%;
+        width: 100%;
+        margin-left: 10%;
     }
 }

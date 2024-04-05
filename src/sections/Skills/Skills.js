@@ -43,9 +43,9 @@ const Skills = () => {
         <div className="row mt">
           <div className="slider">
             <Slider {...settings}>
-              {SkillsData.map((item, index) => {
+              {SkillsData.map((item) => {
                 return (
-                  <div key={index} className="skill_card my-2">
+                  <div key={item.id} className="skill_card my-2">
                     <div
                       className="circle_color_percentage"
                       style={{

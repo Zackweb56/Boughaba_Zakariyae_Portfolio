@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 import Titles from "../../components/Titles/Titles";
 import Button from "../../components/Button/Button";
@@ -10,14 +10,30 @@ import { ProData } from "./ProData";
 import AnimationSections from "../../AnimationSections/AnimationSections";
 
 const Projects = () => {
+  let [visibleProjects, setVisibleProjects] = useState(3);
+  const [isLoading, setIsLoading] = useState(false);
+  // const projectsContainerRef = useRef(null);
+
+  const loadMoreProjects = (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setTimeout(() => {
+      setVisibleProjects((visibleProjects += 3));
+      setIsLoading(false);
+    }, 1000);
+    setTimeout(() => {
+      const projects_section = document.getElementById("projects__section");
+      projects_section.scrollIntoView({ behavior: "smooth" });
+    }, 1500);
+  };
   return (
     <AnimationSections>
-      <div id="projects" className="container-md mb-5 mt-5">
+      <div id="projects__section" className="container-md mb-5 mt-5">
         <Titles title="projects" />
         <div className="mt gap">
-          {ProData.map((item, index) => {
+          {ProData.slice(0, visibleProjects).map((item) => {
             return (
-              <div key={index} className="projects_card card p-4 my-2">
+              <div key={item.id} className="projects_card card p-4 my-2">
                 <div className="project_image card-image">
                   <img
                     src={item.project_image}
@@ -48,6 +64,18 @@ const Projects = () => {
               </div>
             );
           })}
+        </div>
+        <div className="load_more__container">
+          {visibleProjects < ProData.length && (
+            <button
+              type="button"
+              className={isLoading ? "Load__Active_btn" : "Load__More_btn"}
+              onClick={loadMoreProjects}
+              disabled={isLoading}
+            >
+              {isLoading ? "Loading..." : "Load More"}
+            </button>
+          )}
         </div>
       </div>
     </AnimationSections>

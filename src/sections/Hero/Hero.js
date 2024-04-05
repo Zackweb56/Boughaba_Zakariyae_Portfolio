@@ -4,7 +4,7 @@ import SocialIcons from "../../components/SocialIcons/SocialIcons";
 import { FaDownload } from "react-icons/fa6";
 import Coding from "../../assets/herop1.svg";
 // import { saveAs } from 'file-saver';
-import my_cv_english from "../../assets/my_cv_english.pdf";
+import my_cv_english from "../../assets/cv_EN_kénitra.pdf";
 import {
   FaReact,
   FaLaravel,

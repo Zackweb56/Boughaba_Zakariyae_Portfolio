@@ -6,15 +6,24 @@ import "./MoveToNextPage.css";
 
 export default function MoveToNextPage(props) {
   useEffect(() => {
-    // Scroll to the top when the component mounts
     window.scrollTo(0, 0);
-  }, []); 
+  }, []);
+
+  const handleMoveClick = () => {
+    localStorage.setItem("activeLink", props.move_link);
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
+  };
 
   return (
     <div className="move_to_next_page">
       <div className="container d-flex justify-content-around align-items-center">
         <h1 className="move_heading">{props.move_title}</h1>
-        <Link to={props.move_link}>
+        <Link
+          to={props.move_link}
+          onClick={() => handleMoveClick()}
+        >
           <div className="arrow_icon">
             <FaArrowRightLong />
           </div>

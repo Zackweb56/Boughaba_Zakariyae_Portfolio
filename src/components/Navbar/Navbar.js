@@ -21,10 +21,13 @@ function Navbar() {
         };
     }, []);  
 
-    const [activeLink, setActiveLink] = useState("/");
+    const [activeLink, setActiveLink] = useState(() => {
+        return localStorage.getItem('activeLink') || '/';
+    });
 
     const handleActiveLink = (navLink) => {
         setActiveLink(navLink);
+        localStorage.setItem('activeLink', navLink);
     }
     return (
     <>
@@ -47,11 +50,11 @@ function Navbar() {
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">
                         <li><NavLink to="/" id='nav_link' onClick={() => handleActiveLink('/')} className={activeLink === '/' ? 'active-link' : ''}>Home</NavLink></li>
-                        <li><NavLink to="/AboutMe" id='nav_link' onClick={() => handleActiveLink('AboutMe')} className={activeLink === 'AboutMe' ? 'active-link' : ''}>About Me</NavLink></li>
-                        <li><NavLink to="/Services" id='nav_link' onClick={() => handleActiveLink('Services')} className={activeLink === 'Services' ? 'active-link' : ''}>Services</NavLink></li>
-                        <li><NavLink to="/Skills" id='nav_link' onClick={() => handleActiveLink('Skills')} className={activeLink === 'Skills' ? 'active-link' : ''} >Skills</NavLink></li>
-                        <li><NavLink to="/Projects" id='nav_link' onClick={() => handleActiveLink('Projects')} className={activeLink === 'Projects' ? 'active-link' : ''}>Projects</NavLink></li>
-                        <li><NavLink to="/Contact" id='nav_link' onClick={() => handleActiveLink('Contact')} className={activeLink === 'Contact' ? 'active-link' : ''}>Contact</NavLink></li>
+                        <li><NavLink to="/AboutMe" id='nav_link' onClick={() => handleActiveLink('/AboutMe')} className={activeLink === '/AboutMe' ? 'active-link' : ''}>About Me</NavLink></li>
+                        <li><NavLink to="/Services" id='nav_link' onClick={() => handleActiveLink('/Services')} className={activeLink === '/Services' ? 'active-link' : ''}>Services</NavLink></li>
+                        <li><NavLink to="/Skills" id='nav_link' onClick={() => handleActiveLink('/Skills')} className={activeLink === '/Skills' ? 'active-link' : ''} >Skills</NavLink></li>
+                        <li><NavLink to="/Projects" id='nav_link' onClick={() => handleActiveLink('/Projects')} className={activeLink === '/Projects' ? 'active-link' : ''}>Projects</NavLink></li>
+                        <li><NavLink to="/Contact" id='nav_link' onClick={() => handleActiveLink('/Contact')} className={activeLink === '/Contact' ? 'active-link' : ''}>Contact</NavLink></li>
                     </ul>
                 </div>
                 <span className="navTrigger" id='navTrigger'>

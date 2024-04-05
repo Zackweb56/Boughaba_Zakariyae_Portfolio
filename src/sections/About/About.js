@@ -17,6 +17,12 @@ function About() {
       height: "100vh",
     },
   };
+  const handleMoveClick = () => {
+    localStorage.setItem("activeLink", "/AboutMe");
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
+  };
   return (
     <AnimationSections>
       <div id="about" style={styles.about} className="container">
@@ -27,7 +33,9 @@ function About() {
           </div>
           <div className="about_me">
             <h1>
-            I'm A <span style={{ color: "var(--main-color)" }}>Full stack</span> web developer
+              I'm A{" "}
+              <span style={{ color: "var(--main-color)" }}>Full stack</span> web
+              developer
             </h1>
             <p className="about_text_desc">
               My name is BOUGHABA ZAKARIYAE, and I am a highly skilled
@@ -70,7 +78,7 @@ function About() {
                 </p>
               </div>
             </div> */}
-            <div className="btn">
+            <div className="btn" onClick={() => handleMoveClick()}>
               <Button
                 title="More Info"
                 link="/AboutMe"
